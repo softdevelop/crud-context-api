@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Name 1",
+      "location":	"Location 1",
+      "designation": "Designation 1"
+    },
+    {
+      "id": 2,
+      "name": "Name 2",
+      "location":	"Location 2",
+      "designation": "Designation 2"
+    },
+    {
+      "id": 3,
+      "name": "Name 3",
+      "location":	"Location 3",
+      "designation": "Designation 3"
+    },
+    {
+      "id": 4, "name": "Ishan Manandhar", "location": "Kathmandu", "designation": "Frontend Dev"
+    }
+  ],
+  
+  "tutorials": [
+    {
+      "title": "Title 12",
+      "description": "Qwerty description 12",
+      "published": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "Qwerty description 2",
+      "published": true
+    },
+    {
+      "title": "Title 3",
+      "description": "Qwerty description 3",
+      "published": 0,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Title 4",
+      "description": "Qwerty description 4",
+      "published": false
+    },
+    {
+      "title": "Title 5",
+      "description": "Qwerty description 5",
+      "published": 0,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "ABC",
+      "description": "Description ABC",
+      "published": true
+    }
+  ]
+}
