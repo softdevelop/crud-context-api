@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
+const serverURL = 'http://localhost:3333/';
+
 const App = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9000/api/cars")
+    fetch(serverURL+"cars")
       .then(data => data.json())
       .then(data => setCars(data));
   }, []);
